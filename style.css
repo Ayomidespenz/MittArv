@@ -70,6 +70,10 @@
     border-radius: 5px;
     font-weight: bold;
 }
+.btn img{
+    margin-left: 10px;
+    margin-bottom: -2px;
+}
 .grouping{
     width: 50%;
 }
@@ -124,6 +128,10 @@
     margin-top: 30px;
     width: 100%;
     text-align: center;
+}
+.readbtn img{
+    margin-left: 10px;
+    margin-bottom: -5px;
 }
 .about{
     text-align: center;
