@@ -146,6 +146,11 @@
     width: 80%;
     margin-top: 20px;
     line-height: 1.5;
-    font-size: 19px;
+    font-size: 18.5px;
     margin-left: 10%;
+}
+
+.txt {
+    text-align: left;
+    margin-bottom: 20px;
 }
