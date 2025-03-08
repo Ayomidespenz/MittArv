@@ -5,6 +5,22 @@
 }
 .cont{
     width: 100%;
+    padding: 40px;
+}
+h2{
+    font-family: Poppins;
+}
+p{
+    font-family: Poppins; 
+}
+h1{
+    font-family: Poppins;
+}
+h3{
+    font-family: Poppins;
+}
+h5{
+    font-family: Poppins;
 }
 .main{
     display: flex;
@@ -22,6 +38,7 @@
 }
 .logo{
     margin-left: -60px;
+    color:#225676 ;
 }
 .main .logo img{
     height: 60px;
@@ -31,6 +48,7 @@
 .main nav a{
     text-decoration: none;
     margin-left: 20px;
+    color: #134053;
 }
 .anchor{
     background-color: #2C6682;
@@ -51,15 +69,16 @@
 .hero-content{
     width: 50%;
     padding: 20px;
+    color:#134053;
 }
 .hero-content h2{
     margin-bottom: 20px;
-    font-size: 57px;
+    font-size: 50px;
 }
 .hero-content p{
     line-height: 1.6;
     margin-bottom: 30px;
-    font-size: 22px;
+    font-size: 19px;
 }
 .btn{
     display: inline-block;
@@ -69,6 +88,7 @@
     color: white;
     border-radius: 5px;
     font-weight: bold;
+    
 }
 .btn img{
     margin-left: 10px;
@@ -83,18 +103,19 @@
 .service{
     text-align: center;
     margin-bottom: 20px;
+    color: #134053;
 }
 .container{
     background-color: #04405A;
     width: 100%;
     justify-content: center;
     align-items: center;
-    padding: 40px;
+    padding: 30px;
     display: flex;
     flex-wrap: wrap;
 }
 .vault{
-    width: 30%;
+    width: 29%;
     /* text-align: center; */
     background-color: #25627E;
     border-radius: 10px;
@@ -103,14 +124,14 @@
     margin-left: 30px;
 }
 .vault{
-    font-size: 18px;
+    font-size: 20px;
     color: white;
 }
 .vault p{
     margin-right: 50px;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.4;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 .vault h3{
     margin-top: 20px;
@@ -143,7 +164,7 @@
     font-size: 20px;
 }
  .para{
-    width: 80%;
+    width: 85%;
     margin-top: 20px;
     line-height: 1.5;
     font-size: 18.5px;
