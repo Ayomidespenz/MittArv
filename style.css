@@ -28,6 +28,10 @@ h5{
     align-items: center;
     padding: 20px 50px;
 }
+.ham{
+    display: none;
+    
+}
 .main .logo{
     display: flex;
     align-items: center;
@@ -50,11 +54,17 @@ h5{
     margin-left: 20px;
     color: #134053;
 }
-.anchor{
+button{
     background-color: #2C6682;
     color: white;
     padding: 10px;
     border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin-left: 10px;
+}
+button a{
+    color: white;
 }
 .hero{
     background-image: url(/image/Ellipse\ 14.jpg.png);
@@ -64,16 +74,15 @@ h5{
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    /* border: 3px solid green; */
 }
 .hero-content{
-    width: 50%;
+    width: 55%;
     padding: 20px;
     color:#134053;
 }
 .hero-content h2{
-    margin-bottom: 20px;
-    font-size: 50px;
+    margin-bottom: 40px;
+    font-size: 44px;
 }
 .hero-content p{
     line-height: 1.6;
@@ -88,13 +97,12 @@ h5{
     color: white;
     border-radius: 5px;
     font-weight: bold;
-    
 }
 .btn img{
     margin-left: 10px;
     margin-bottom: -2px;
 }
-.grouping{
+.groupimg{
     width: 50%;
 }
 .grouping img{
@@ -116,7 +124,6 @@ h5{
 }
 .vault{
     width: 29%;
-    /* text-align: center; */
     background-color: #25627E;
     border-radius: 10px;
     margin-top: 50px;
@@ -181,7 +188,7 @@ h5{
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
-    padding: 40px;
+    padding: 20px;
     display: flex;
     color: white;
 
@@ -217,4 +224,184 @@ hr{
     font-weight: bold;
     margin-top: 6px;
     font-size: 16px;
+}
+.sub3{
+    /* border: 2px solid yellow; */
+    background-color: #04405A;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
+    display: flex;
+    color: white;
+    margin-bottom: 50px;
+}
+.sub2{
+    /* border: 2px solid yellow; */
+    background-color: #04405A;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
+    display: flex;
+    color: white;
+    margin-bottom: 80px;
+}
+.menu{
+    text-align: center;
+    background-color: #04405A;
+    color: white;
+    font-family: Poppins;
+    font-size: 16px;
+}
+@media screen and (max-width:768px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .main .logo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: -150px;
+        padding: 0;
+    }
+    hr{
+        display: none;
+    }
+    .manage{
+        margin: 0;
+        font-size: 12px;
+    }
+    /* .main nav a{
+        width: 100%;
+        line-height: 1.6;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        float: right;
+    } */
+     .main nav a{
+        display: none;
+     }
+    button{
+        display: none;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .hero-content{
+        padding: 0;
+        width: 100%;
+    }
+    .hero-content h2{
+        font-size: 20px;
+    }
+    .hero-content p{
+        font-size: 10px;
+    }
+    .btn{
+        padding: 8px 12px;
+    }
+    .groupimg{
+        width: 100%;
+    }
+    .groupimg img{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .service{
+        font-size: 12px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .vault{
+        width: 100%;
+        padding: 10px;
+        margin: 0;
+        margin-top: 20px;
+        
+    }
+    .vault p{
+        font-size: 12px;
+    }
+    .vault h3{
+        font-size: 14px;
+    }
+    .readbtn{
+        width: 100%;
+        margin: 0;
+        padding: 5px;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+    .readbtn img{
+        width: 8%;
+        margin-bottom: 0px;
+        margin-left: -0.5px;
+    }
+    .icon5{
+        width: 50%;
+    }
+    .about{
+        width: 100%;
+    }
+    .about h3{
+        font-size: 16px;
+        
+    }
+    .about .para{
+        font-size: 14px;
+    }
+    .txt{
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .foot{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sub3{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        align-items: start;
+        width: 100%;
+    }
+    .sub2{
+        align-items: start;
+        flex-direction: column;
+    }
+    .connect2{
+        margin-left: -40px;
+        margin-bottom: 20px;
+    }
+    .connect4{
+        margin-top: 20px;
+    }
+    .connect6{
+        margin-left: -70px;
+        margin-bottom: 20px;
+    }
+    .menu{
+        font-size: 10px;
+        margin-bottom: 40px;
+    }
+    .ham{
+        display:none;
+    }
+    .para2{
+        font-size: 16px;
+        padding: 2px;
+    }
+    
 }
