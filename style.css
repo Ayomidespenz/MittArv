@@ -28,6 +28,11 @@ h5{
     align-items: center;
     padding: 20px 50px;
 }
+.back{
+    background-image: url(/image/Ellipse\ 14.jpg.png);
+    background-repeat: no-repeat;
+    background-size: 35%;
+}
 .ham{
     display: none;
     
@@ -67,7 +72,7 @@ button a{
     color: white;
 }
 .hero{
-    background-image: url(/image/Ellipse\ 14.jpg.png);
+    /* background-image: url(/image/Ellipse\ 14.jpg.png); */
     background-size: 30%;
     background-repeat: no-repeat;
     display: flex;
